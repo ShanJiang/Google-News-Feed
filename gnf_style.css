@@ -1,0 +1,78 @@
+#searchTerm{
+	width: 81.5%;
+}
+
+@media(max-width: 992px){
+  #searchTerm{
+  width: 98%;
+}
+}
+
+ul>li:first-child{
+	display: none;
+}
+
+ul>li.gnf{
+background: transparent;
+padding-left:0px;
+}
+
+.title{
+  color:#00539b;;
+	/*color: rgba(0,0,0,0.87);*/
+	text-transform: capitalize;
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+
+.btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+
+table tbody tr:nth-child(odd) {
+    background: transparent !important;
+}
+
+div.lh > a {
+  color: #00539b;
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 140%;
+}
+
+div.lh > font >a {
+  color: #00539b;
+  font: 300 14px/22px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+}
+
+div#output > ul > li.gnf > table td a {
+  padding-right: 3%;
+  padding-left: 0px;
+}
+
+div.lh{
+  margin-top: -1.5em;
+}
+
+div#output > ul > li.gnf > table td a:hover{
+  color: #f37021;
+}
+
+form#google_news_feed > input[type="submit"]{
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  font-size: 18px;
+  padding: 0.5em 1.0em 0.5em 1.0em;
+}
+
+form#google_news_feed > input[type="text"] {
+  font-family: Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+  color: #f37021;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 18px;
+  letter-spacing: 1px;
+  margin: 0 -2px;
+  padding: 0.5em 1.0em;
+  vertical-align: top;
+}
